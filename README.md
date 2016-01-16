@@ -1,9 +1,6 @@
 NODE-API
 
-This is a simple Nodejs API, using:
-	MongoDB for persistence 
-	Gulp for task automation
-	Chakram for API testing
+This is a simple Nodejs API, using MongoDB for persistence, Gulp for task automation and Chakram for API testing.
 
 
 How to use:
