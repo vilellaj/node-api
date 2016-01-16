@@ -1,34 +1,33 @@
 NODE-API
 
 This is a simple Nodejs API, using:
-	- MongoDB for persistence 
-	- Gulp for task automation
-	- Chakram for API testing
+	MongoDB for persistence 
+	Gulp for task automation
+	Chakram for API testing
 
 
 How to use:
-
-	Clone the repo and run: 
+Clone the repo and run: 
 
 	npm install
 
-	After that, change the mongodb Uri in database config object at app/config/db.js
+After that, change the mongodb Uri in database config object at app/config/db.js
 
-	Finally, run:
+Finally, run:
 
 	node server.js
 
-	And you can start making requests to the defined routes. :D
+And you can start making requests to the defined routes. :D
 
 
 Testing:
-	Simple tests were provided, but soon I'll make them better.
-	To test the API run:
+Simple tests were provided, but soon I'll make them better.
+To test the API (since its started) run:
 
 	mocha
 
 Task automation:
-	A JSHint task was provided and it can be started (since the API is running) with
+A JSHint task was provided and it can be started with
 
 	gulp
 
